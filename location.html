@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+      <link rel="stylesheet" href = "Tanousha.css">
+      <title> Tanousha Locations </title>
+
+      <!-- NAVIGATION BAR -->
+    <ul>
+      <div>
+      <li><a href="indexTan.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="location.html">Map</a></li>
+      <li><a href="tanContact.html">Contact</a></li>
+    </div>
+    <div>
+    <img id= "idTanoushaLogo" src="IMG_2080.png"style="width:15%" alt="" >
+
+    </div>
+    </ul>
+
+<!-- MAPPPPP -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.1.3/css/ol.css" type="text/css">
+    <style>
+      .map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.1.3/build/ol.js"></script>
+    <title>OpenLayers example</title>
+
+
+  </head>
+
+  <body>
+
+    <h2 id="idMap">Find the Nearest Store!</h2>
+    <div id="map" class="map"></div>
+    <script type="text/javascript">
+      var map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          })
+        ],
+        view: new ol.View({
+          center: ol.proj.fromLonLat([-74.0344, 40.7290]),
+          zoom: 16
+        })
+      });
+    </script>
+
+    <p id="idStoreLoc">Location: Newport Mall, 2nd floor, near H&M, Newport, NJ </p>
+
+    <br>
+    <br>
+
+
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #81698c;
+        color: black;
+        text-align: center;
+    }
+
+    </style>
+
+    <div class="footer">
+      <p>  © 2018 Tanousha</p>
+    </div>
+
+
+
+    </body>
+      <script src="Tanousha.js"></script>
+    </html>

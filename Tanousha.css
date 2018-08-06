@@ -1,0 +1,237 @@
+/* NAVIGATION BAR */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #81698c;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 35px;
+    text-decoration: none;
+        float APVCircle.png: right;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color:#e8d533;
+}
+
+#idTanoushaLogo {
+  float: right;
+}
+
+
+html{
+  background-color: #332738;
+}
+
+body {
+  background-color: #f2f2f2;
+  width: 1000px;
+  padding: 10px;
+  border: 15px solid #81698c;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+#idTC {
+  text-align: center;
+  font-family: lovely_summer;
+}
+
+@font-face {
+  font-family: lovely_summer;
+  src: url(LovelySummerPersonalUse.ttf);
+}
+
+@font-face {
+  font-family: Quesha;
+  src: url(Quesha.ttf);
+}
+
+#idCatch {
+  text-align: center;
+  font-family: Quesha;
+  font-size: 30px;
+}
+
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+
+/* store CSS CODE */
+* {
+    box-sizing: border-box;
+}
+
+.price {
+  color: red;
+  font-family: Quesha;
+  font-size: 20px;
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #e8d533;
+  cursor: pointer;
+  font-family: Quesha;
+  font-size: 20px;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #332738;
+   color: white;
+}
+
+#idPort {
+  font-family: Quesha;
+  text-align: center;
+  font-size: 45px;
+}
+
+@font-face {
+  font-family: londinia;
+  src: url(LondiniaMedium.ttf);
+}
+#idContactFormat {
+  font-family: londinia;
+  font-size: 30px;
+  text-align: center;
+}
+#idMap {
+  font-family: Quesha;
+  text-align: center;
+  font-size: 45px;
+}
+
+.footer{
+  font-family:footerscript;
+  color:black;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: footerscript;
+  src: url(Blacksword.otf);
+
+}
+
+#idSub {
+  text-align: center;
+  font-family: londinia;
+  font-size: 30px;
+}
+.formcenter {
+  margin-left: auto;
+  margin-right: auto;
+  width: 17%;
+}
+
+.button {
+  background-color: #332738;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-family: Quesha;
+}
+
+.button2 {
+  background-color: #332738;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Quesha;
+}
+#idStoreLoc {
+  font-family: Quesha;
+  font-size: 35px;
+}
